@@ -1,0 +1,155 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Spartan', sans-serif;
+  font-size: 1.3rem;
+}
+
+h1 {
+  color: #66BFBF;
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  line-height: 1.5;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Cinzel', serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Spartan', sans-serif;
+  font-size: 1.5rem;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.profile-img {
+  position: absolute;
+  top: 50px;
+}
+
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  position: relative;
+  top: 90px;
+  background-color: #66BFBF;
+  color: #11999E;
+  padding: 40px;
+  font-size: 1.3rem;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.machine-learning-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.full-stack-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.end-message {
+  line-height: 2;
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  display: inline-block;
+  border: 20px #11999E;
+  border-radius: 20px;
+  background-color: #11999E;
+  color: white;
+  text-decoration: none;
+  padding: 16px;
+  position: relative;
+
+}
+
+.footer-link {
+  text-decoration: none;
+  padding-right: 40px;
+  font-family: 'Spartan', sans-serif;
+  color: #11999E;
+  font-size: 1.5rem;
+  font-weight: bolder;
+
+}
+.copyright {
+  color: #EAF6F6;
+  font-size: 1rem;
+  padding: 30px;
+
+}
+
+/*
+.ml-skill-description {
+  clear: left;
+}
+
+.web-dev-description {
+  clear: right;
+}
+*/
