@@ -19,7 +19,9 @@ h2 {
   font-family: 'Cinzel', serif;
   font-size: 2.5rem;
   font-weight: normal;
-  padding-bottom: 10px;
+
+  padding-bottom: 2.8rem;
+
 }
 
 h3 {
@@ -30,6 +32,7 @@ h3 {
 
 p {
   line-height: 2;
+  font-weight: bold;
 }
 
 a {
@@ -48,7 +51,6 @@ hr {
   background-color: #E4F9F5;
   position: relative;
   padding-top: 100px;
-
 }
 
 .profile-img {
@@ -96,6 +98,11 @@ hr {
   position: absolute;
   left: 250px;
   bottom: 300px;
+}
+
+.mountain {
+  position: relative;
+  margin-top: 4rem
 }
 
 .machine-learning-img {
@@ -153,3 +160,264 @@ hr {
   clear: right;
 }
 */
+
+/* Project Card */
+.container-fluid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 325px;
+  height: 400px;
+  background: rgb(236, 236, 236);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  position: relative;
+  margin: 2rem 2rem 2rem 2rem; 
+  overflow: hidden;
+}
+
+#card-image-html {
+  height: 300px;
+  text-align: center;
+}
+
+#card-image-css {
+  height: 300px;
+  /* Center image in middle of card */
+  object-position: -7rem;
+  
+}
+
+#card-video-tindog {
+  height: 300px;
+  width: 325px;
+  /* Center image in middle of card */
+  /* object-position: -9rem; */
+  
+}
+
+#card-image-react-movie-app {
+  height: 300px;
+  overflow: hidden;
+  /* Center image in middle of card */
+  object-position: -7rem;
+  
+}
+
+#card-image-personicle-dashboard {
+  height: 300px;
+  overflow: hidden;
+  /* Center image in middle of card */
+  object-position: -1rem;
+}
+
+#card-image-personicle-website {
+  height: 300px;
+  overflow: hidden;
+  /* Center image in middle of card */
+  object-position: -7rem;
+
+}
+
+.card-description {
+  font-size: 12px;
+}
+
+.card-subtitle {
+  margin-bottom: 1rem;
+}
+
+/*______Social Media______*/
+.social-media:before {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 2px;
+  -webkit-transform: translatey(10px);
+      -ms-transform: translatey(10px);
+          transform: translatey(10px);
+  background: #414141;
+}
+
+.social-media a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.social-media a:last-child {
+  margin-right: 0;
+}
+
+.social-media a svg {
+  color: #ff5858;
+  -webkit-transform: translatex(10px) translateY(20px);
+      -ms-transform: translatex(25px) translateY(20px);
+          transform: translatex(50px) translateY(20px);
+  width: 20px;
+  fill: currentColor;
+}
+
+/*______Social Media______*/
+.social-media:before {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 2px;
+  transform: translatey(10px);
+  background: #414141;
+}
+
+.social-media a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.social-media a:last-child {
+  margin-right: 0;
+}
+
+.social-media a svg {
+  color: #ff5858;
+  transform: translatex(25px) translateY(20px);
+  width: 20px;
+  fill: currentColor;
+}
+
+/* hashtag */
+
+.hashtag {
+  position: relative;
+  width: 2.5em;
+  height: 2.5em;
+  transform: rotate(165deg);
+ }
+ 
+ .hashtag:before, .hashtag:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 0.25em;
+  transform: translate(-50%, -50%);
+ }
+ 
+ .hashtag:before {
+  animation: before8 2s infinite;
+ }
+ 
+ .hashtag:after {
+  animation: after6 2s infinite;
+ }
+ 
+ @keyframes before8 {
+  0% {
+   width: 0.5em;
+   box-shadow: 1em -0.5em rgba(225, 20, 98, 0.75), -1em 0.5em rgba(111, 202, 220, 0.75);
+  }
+ 
+  35% {
+   width: 2.5em;
+   box-shadow: 0 -0.5em rgba(225, 20, 98, 0.75), 0 0.5em rgba(111, 202, 220, 0.75);
+  }
+ 
+  70% {
+   width: 0.5em;
+   box-shadow: -1em -0.5em rgba(225, 20, 98, 0.75), 1em 0.5em rgba(111, 202, 220, 0.75);
+  }
+ 
+  100% {
+   box-shadow: 1em -0.5em rgba(225, 20, 98, 0.75), -1em 0.5em rgba(111, 202, 220, 0.75);
+  }
+ }
+ 
+ @keyframes after6 {
+  0% {
+   height: 0.5em;
+   box-shadow: 0.5em 1em rgba(61, 184, 143, 0.75), -0.5em -1em rgba(233, 169, 32, 0.75);
+  }
+ 
+  35% {
+   height: 2.5em;
+   box-shadow: 0.5em 0 rgba(61, 184, 143, 0.75), -0.5em 0 rgba(233, 169, 32, 0.75);
+  }
+ 
+  70% {
+   height: 0.5em;
+   box-shadow: 0.5em -1em rgba(61, 184, 143, 0.75), -0.5em 1em rgba(233, 169, 32, 0.75);
+  }
+ 
+  100% {
+   box-shadow: 0.5em 1em rgba(61, 184, 143, 0.75), -0.5em -1em rgba(233, 169, 32, 0.75);
+  }
+ }
+ 
+ .hashtag {
+  position: absolute;
+  top: calc(50% - 7em);
+  left: calc(50% - 1.25em);
+ }
+
+ /* Bar and Ball */
+
+ .ball {
+  position: relative;
+  bottom: 50px;
+  left: calc(100% - 20px);
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  animation: ball-move8234 3s ease-in-out 1s infinite alternate;
+}
+
+.ball::after {
+  position: absolute;
+  content: '';
+  top: 25px;
+  right: 5px;
+  width: 5px;
+  height: 5px;
+  background: #000;
+  border-radius: 50%;
+}
+
+.bar {
+  position: relative;
+  width: 200px;
+  margin-left: 42.65%;
+  margin-bottom: -8.75rem;
+  height: 12.5px;
+  background: #FFDAAF;
+  border-radius: 30px;
+  transform: rotate(-15deg);
+  animation: up-down6123 3s ease-in-out 1s infinite alternate;
+}
+
+@keyframes up-down6123 {
+  from {
+    transform: rotate(-15deg);
+  }
+
+  to {
+    transform: rotate(15deg);
+  }
+}
+
+@keyframes ball-move8234 {
+  from {
+    left: calc(100% - 40px);
+    transform: rotate(360deg);
+  }
+
+  to {
+    left: calc(0% - 20px);
+    transform: rotate(0deg);
+  }
+}
