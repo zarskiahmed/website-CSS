@@ -4,6 +4,7 @@ body {
   text-align: center;
   font-family: 'Spartan', sans-serif;
   font-size: 1.3rem;
+  background-color: cream;
 }
 
 h1 {
@@ -102,7 +103,9 @@ hr {
 
 .mountain {
   position: relative;
-  margin-top: 4rem
+  margin-top: 4rem;
+  top: 50%;
+  left: auto;
 }
 
 .machine-learning-img {
@@ -112,7 +115,7 @@ hr {
 }
 
 .full-stack-img {
-  width: 25%;
+  width: 20%;
   float: right;
   margin-left: 30px;
 }
@@ -166,9 +169,11 @@ hr {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  background-color: rgb(245, 174, 43);
 }
 
 .card {
+  color: black;
   width: 325px;
   height: 400px;
   background: rgb(236, 236, 236);
@@ -418,4 +423,62 @@ hr {
     left: calc(0% - 20px);
     transform: rotate(0deg);
   }
+}
+
+/* Machine Learning & Data Science */
+.sdlc-container {
+  margin-bottom: 17rem;
+}
+
+.sdlc-img {
+  width: 25%;
+  float: right;
+  margin-right: 10rem;
+  margin-bottom: auto;
+}
+
+.ml-gif {
+  width: 40%;
+  float: right;
+  margin-right: 4rem;
+
+}
+
+.jupyter-notebook-img {
+  width: 7rem;
+  margin-top: 1.5rem;
+  float: right;
+  margin-right: 30px;
+
+}
+
+.google-colab-img {
+  width: 10rem;
+  float: right;
+  margin-right: 30px;
+
+}
+
+.tensorflow-img  {
+  width: 6rem;
+  margin-top: 1.5rem;
+  float: right;
+  margin-right: 30px;
+
+}
+
+/* Ruby on Rails */
+
+.ruby-on-rails-img {
+  width: 35%;
+  float: left;
+  margin-right: 30px;
+  
+}
+
+.react-img {
+  width: 35%;
+  float: right;
+  margin-left: 30px;
+  
 }
