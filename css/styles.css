@@ -106,6 +106,7 @@ hr {
   margin-top: 4rem;
   top: 50%;
   left: auto;
+  position: center;
 }
 
 .machine-learning-img {
@@ -372,7 +373,7 @@ hr {
  .ball {
   position: relative;
   bottom: 50px;
-  left: calc(100% - 30px);
+  left: calc(100% - 0px);
   width: 50px;
   height: 50px;
   background: #fff;
@@ -394,7 +395,7 @@ hr {
 .bar {
   position: relative;
   width: 200px;
-  margin-left: 42.65%;
+  margin-left: 43%;
   margin-bottom: -8.75rem;
   height: 12.5px;
   background: #FFDAAF;
