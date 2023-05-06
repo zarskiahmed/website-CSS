@@ -105,7 +105,8 @@ hr {
   position: relative;
   margin-top: 4rem;
   top: 50%;
-  left: auto;
+  margin-left: auto;
+  margin-right: auto;
   position: center;
 }
 
@@ -394,8 +395,11 @@ hr {
 
 .bar {
   position: relative;
+  top:0;
+  left:0;
   width: 200px;
-  margin-left: 43%;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: -8.75rem;
   height: 12.5px;
   background: #FFDAAF;
